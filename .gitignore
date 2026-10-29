@@ -1,0 +1,19 @@
+# Entornos virtuales y temporales de desarrollo
+.venv*/
+venv/
+env-tox/
+.tox/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Claves privadas
+*.pem
+
+# Archivos intermedios de construcción
+build/
+*.egg-info/
+
+# dist/, *.whl, *.csv y *.pkl se conservan para el flujo del taller.
